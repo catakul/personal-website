@@ -1,1 +1,2 @@
 - Schöne Bilder einfügen
+- Gute Texte!
