@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(247, 234, 217);
+  background-color: rgb(226, 226, 227);
   font-family: Arial;
 }
 h1 {
@@ -47,7 +47,7 @@ h1 {
   color: lightskyblue;
 }
 
-article {
+.Einleitung {
   /*Einleitung*/
   border: 1px solid mediumblue;
   display: flex;
@@ -64,23 +64,69 @@ h2 {
 }
 h3 {
   text-decoration: underline;
+  text-align: center;
 }
+.profiles {
+  padding: 20px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 75px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .github {
-  width: 50%;
-  height: 170px;
-  border-radius: 300%;
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
 }
 
 .codepen {
-  width: 50%;
-  height: 170px;
-  border-radius: 300%;
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
 }
 
 .codesandbox {
-  width: 50%;
-  height: 170px;
-  border-radius: 300%;
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+}
+header {
+  height: 36px;
+}
+
+header {
+  height: 36px;
+  background: linear-gradient(white, white 33px, pink 35px, pink 36px);
+}
+.card {
+  background: repeating-linear-gradient(
+    white,
+    white 25px,
+    #9198e5 26px,
+    #9198e5 27px
+  );
+}
+.card-text {
+  position: relative;
+  top: 30px;
+  font-size: 18px;
+  margin: 0 20px;
+  line-height: 27px;
 }
 
 .solid {
