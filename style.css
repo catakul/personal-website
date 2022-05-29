@@ -1,41 +1,65 @@
 body {
-  font-family: "Patrick Hand";
+  background-color: lightgray;
+  font-family: Arial;
 }
-
-p {
-  color: red;
+h1 {
+  font-family: Kalam;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  color: mediumblue;
+  text-shadow: 77px;
+  box-shadow: 15px;
 }
 img {
-  /* Resizing image*/
   max-width: 100%;
   height: auto;
-}
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #333;
-  background-color: mediumblue;
-  overflow: hidden;
-  box-shadow: Darkgray;
+  border-radius: 50%; /*wieso wird der nicht ganz rund?*/
 }
 
-/* Style the links inside the navigation bar */
+.topnav {
+  background-color: lightskyblue;
+  overflow: hidden;
+  border-radius: 19px;
+}
+
 .topnav a {
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #046ca9;
   color: white;
+  padding: 14px 14px;
+  gap: 20px;
+  text-align: center;
+  height: 15px;
+  /*flex nötig?*/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.topnav a:hover {
+  float: left;
+  color: mediumblue;
+}
+
+.topnav a.default {
+  background-color: mediumblue;
+  color: lightskyblue;
+}
+
+article {
+  border: 1px solid mediumblue;
+  display: flex;
+  gap: 5px; /*macht das iwas?*/
+  align-items: center; /*macht das iwas?*/
+}
+
+.solid {
+  border-top: 1px solid mediumblue;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  align-self: baseline; /*funktioniert iwie nicht, möchte die Fußzeile Ganz unten haben und nicht unterm strich*/
 }
