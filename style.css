@@ -12,8 +12,10 @@ h1 {
   box-shadow: 15px;
 }
 img {
+  /*Profilfoto*/
   width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .topnav {
@@ -46,10 +48,27 @@ img {
 }
 
 article {
+  /*Einleitung*/
   border: 1px solid mediumblue;
   display: flex;
   gap: 5px; /*macht das iwas?*/
   align-items: center; /*macht das iwas?*/
+}
+
+h2 {
+  font-family: Kalam;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+  color: mediumblue;
+}
+.github {
+}
+
+.codepen {
+}
+
+.codesandbox {
 }
 
 .solid {
