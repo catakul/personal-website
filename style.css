@@ -11,7 +11,7 @@ h1 {
   text-shadow: 77px;
   box-shadow: 15px;
 }
-img {
+.profile {
   /*Profilfoto*/
   width: 100%;
   height: auto;
@@ -62,13 +62,25 @@ h2 {
   text-decoration: underline;
   color: mediumblue;
 }
+h3 {
+  text-decoration: underline;
+}
 .github {
+  width: 50%;
+  height: 170px;
+  border-radius: 300%;
 }
 
 .codepen {
+  width: 50%;
+  height: 170px;
+  border-radius: 300%;
 }
 
 .codesandbox {
+  width: 50%;
+  height: 170px;
+  border-radius: 300%;
 }
 
 .solid {
