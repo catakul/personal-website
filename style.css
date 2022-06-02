@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(226, 226, 227);
+  font-family: Arial;
+}
+h1 {
+  font-family: Kalam;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  color: mediumblue;
+  text-shadow: 77px;
+  box-shadow: 15px;
+}
+.profile {
+  /*Profilfoto*/
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.topnav {
+  background-color: lightskyblue;
+  overflow: hidden;
+  border-radius: 19px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 14px;
+  gap: 20px;
+  text-align: center;
+  height: 15px;
+  /*flex nötig?*/
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.topnav a:hover {
+  float: left;
+  color: mediumblue;
+}
+
+.topnav a.default {
+  background-color: mediumblue;
+  color: lightskyblue;
+}
+
+.Einleitung {
+  /*Einleitung*/
+  border: 1px solid mediumblue;
+  display: flex;
+  gap: 5px; /*macht das iwas?*/
+  align-items: center; /*macht das iwas?*/
+}
+
+h2 {
+  font-family: Kalam;
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline;
+  color: mediumblue;
+}
+h3 {
+  text-decoration: underline;
+  text-align: center;
+}
+.profiles {
+  padding: 20px;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 75px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.github {
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
+}
+
+.codepen {
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
+}
+
+.codesandbox {
+  max-width: 200px;
+  background-color: white;
+  border-radius: 130px;
+  padding: 5px;
+  box-shadow: 0 0 40px steelblue;
+}
+
+.solid {
+  border-top: 1px solid mediumblue;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  align-self: baseline; /*funktioniert iwie nicht, möchte die Fußzeile Ganz unten haben und nicht unterm strich*/
+}
